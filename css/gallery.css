@@ -1,0 +1,120 @@
+.gallery{
+	/*display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden; 
+	overflow: scroll;---------------------SCROLLABLE*/
+	width: max-content;
+	top: 0;
+}
+
+.big img{
+	width: 60vw;
+	height: auto;
+	z-index: -100;
+}
+
+.big video{
+	width: 60vw;
+}
+
+.small img{
+	width: 50vw;
+	height: auto;
+	z-index: -100;
+	margin: 0;
+	padding: 0;
+}
+
+.galleryparent{
+	width: 50vw;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.gallery:hover{
+	/*animation-play-state: paused;*/	
+}
+.hover-me{
+	position: relative;
+}
+.hover-me:hover .hover-content{
+	display: inline;
+}
+
+.hover-me:hover .hover-content2{
+	display: block;
+}
+
+.hover-content{	
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	color: white;
+	font-family: universcondbold;
+	font-size: 2em;
+	top: 33.33%;
+	margin-left: -12.6%;
+}
+
+.hover-content2{	
+	display: none;
+	position: absolute;
+	z-index: 1000;
+	color: white;
+	font-family: universcondbold;
+	top: ;
+	font-size: 2em;
+	top: 33%;
+	left: 10%;
+}
+
+.three{
+	animation: three 30s ease-in-out infinite;
+}
+.four{
+	animation: four 30s ease-in-out infinite;
+}
+
+.five{
+	animation: five 30s ease-in-out infinite;
+}
+
+.six{
+	animation: six 30s ease-in-out infinite;
+}
+
+@keyframes three{
+	0% { transform: translate(0, 0); }
+	30.3%, 33.3% { transform: translate(-16.6%,0); }
+	63.6%, 66.6% { transform: translate(-33.3%,0);}
+	100% { transform: translate(-50%,0); }
+}
+
+@keyframes four{
+	0% { transform: translate(0, 0); }
+	23%, 25% { transform: translate(-12.5%,0); }
+	48%, 50% { transform: translate(-25%,0);}
+	73%, 75% { transform: translate(-37.5%, 0); }
+	100% { transform: translate(-50%,0); }
+}
+
+@keyframes five{
+	0% { transform: translate(0, 0); }
+	18%, 20% { transform: translate(-10%,0); }
+	38%, 40% { transform: translate(-20%,0);}
+	58%, 60% { transform: translate(-30%,0);}
+	78%, 80% { transform: translate(-40%,0);}
+	100% { transform: translate(-50%,0); }
+}
+
+@keyframes six{
+	0% { transform: translate(0, 0); }
+	14.6%, 16.6% { transform: translate(-8.3%,0); }
+	30.3%, 33.3% { transform: translate(-16.6%,0);}
+	48%, 50% { transform: translate(-25%,0);}
+	63.6%, 66.6% { transform: translate(-33.3%,0);}
+	80.3%, 83.3% { transform: translate(-41.6%,0); }
+	100%{ transform: translate(-50%,0); }
+}
+

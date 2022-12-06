@@ -1,0 +1,186 @@
+
+/*IMPORTING TYPEFACES*/
+@font-face {
+  font-family: 'universcondbold';
+  src:  url('../assets/typefaces/universCondBold.woff2') format('woff2'),
+        url('../assets/typefaces/universCondBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'universcondreg';
+  src:  url('../assets/typefaces/universCondReg.woff2') format('woff2'),
+        url('../assets/typefaces/universCondReg.woff') format('woff');
+}
+
+/*--------------------------------------- HEADER */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+body{
+	background: black;
+  color: white;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.clickable:hover{
+  opacity: 50%;
+}
+
+h1, h2, h3{
+  font-family: universcondbold;
+}
+
+.header{
+  z-index: 100;
+  position: fixed;
+  pointer-events: none;
+  font-size: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 97vw;
+}
+
+.header h2{
+  pointer-events: auto;
+}
+
+.header .menu-item{
+  pointer-events: auto;
+  display: inline;
+  padding: 1em;
+}
+
+.header .menu-bar {
+  pointer-events: auto;
+  font-family: universcondreg;
+  font-size: 1em;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+}
+
+.home{
+  font-size: 2em;
+  padding: .5em;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  list-style-type: none;
+}
+
+.spacer{
+  display: block;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+  z-index: -1;
+}
+
+
+
+/*--------------------------------------- BOTTOM */
+.about{
+  font-family: universcondreg;
+  font-size: 2em;
+  padding: 2em;
+}
+
+.about h5{
+  font-size: .5em;
+}
+
+.animatedtext{
+  animation: ticker 30s linear infinite;
+}
+
+.bottomhalf{
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100vw;
+  font-size: 1vw;
+}
+
+.intro{
+  text-align: right;
+  font-size: 3em;
+  margin: 2vw;
+  padding: 1vw;
+  padding-bottom: 2em;
+}
+
+.list{  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+}
+
+.ticker1{
+  z-index: 100;
+  font-size: .5em;
+  pointer-events: auto;
+  font-family: universcondbold;
+  width: 100vw;
+  transform: rotate(10deg);
+}
+
+.ticker1 li{
+  display: inline;
+  font-size: 15em;
+  padding: .1em;
+}
+
+.ticker2{
+  font-family: universcondreg;
+  font-size: 2em;
+  width: 100vw;
+  overflow: hidden;
+  transform: rotate(-10deg);
+}
+
+
+@keyframes ticker {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-50%, 0); }
+}
+
+/*--------------------------------------- Footer */
+.footer{
+  pointer-events: auto;
+  font-family: universcondreg;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 97vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

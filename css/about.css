@@ -1,0 +1,47 @@
+/*--------------------------------------- ABOUT PAGE ------------------------------------- */
+.title{
+  font-size: 10em;
+  display: block;
+  margin: 0;
+  padding-bottom: 0;
+  text-align: center;
+  width: max-content;
+  z-index: -100;
+}
+
+.subtitle{
+  font-family: universcondbold;
+  font-size: 3em;
+  padding-top: 2em;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.bottomhalf{
+	width: 100vw;
+}
+
+p{
+	font-family: universcondreg;
+		font-size: 1.5em;
+}
+
+.bio .animatedtext {
+	font-size: 6em;
+}
+.bio .para{
+	padding-bottom: 3em;
+}
+
+.bio h2{
+	font-size: 3em;
+}
+
+
+.right{
+	text-align: right;
+}
+
+.what{
+	padding: 10em;
+}

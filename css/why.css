@@ -1,0 +1,15 @@
+.main{
+	font-size: 2vw;	
+	width: 80vw;
+}
+.main p{
+	font-family: universcondreg;
+	font-size: 1em;
+}
+
+.why_parent{
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

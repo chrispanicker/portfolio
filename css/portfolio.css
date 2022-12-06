@@ -1,0 +1,60 @@
+.portfolionav{
+	padding: 0;
+	padding-top: 3em;
+	margin: 0;
+	display: flex;
+	list-style-type: none;
+	font-family: universcondbold;
+	font-size: 2vw;
+	width: 100vw;
+	justify-content: space-between;
+}
+
+.portfolionav li{
+	display: inline;
+	margin: 2em;
+}
+
+.current{
+	opacity: 50%;
+}
+
+.highlights{
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	width: 100vw;
+}
+
+.description{
+	margin: 2em;
+	width: 30vw;
+}
+
+.name{
+	font-family: universcondbold;
+	font-size: 3em;
+}
+
+.date{
+	font-family: universcondreg;
+	font-size: 1.5em;
+}
+
+.caption{
+	font-family: universcondreg;
+	font-size: 1.5em;
+}
+
+.right{
+	text-align: right;
+	justify-content: flex-end;
+}
+
+video{
+	width: 40vw;
+	height: auto;
+	pointer-events: auto;
+}
