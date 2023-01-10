@@ -1,0 +1,14 @@
+model-viewer{
+	width: 40vw;
+	height: 20vw;
+}
+
+img{
+	width: 40vw;
+}
+
+@media only screen and (max-width: 600px) {
+	img{
+		width:100vw;
+	}
+}
